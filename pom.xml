@@ -66,14 +66,9 @@
   </build>
   <distributionManagement>
   <repository>
-    <id>releases</id>
+    <id>mydata-data-repos</id>
     <!-- CHANGE HERE by your team nexus server -->
-    <url>http://192.168.1.211:8081/repositories/releases/</url>
+    <url>http://192.168.1.211:8081/repository/mydata-data-repo/</url>
   </repository>
-  <snapshotRepository>
-    <id>snapshots</id>
-    <!-- CHANGE HERE by your team nexus server -->
-    <url>http://192.168.1.211:8081/repositories/snapshots/</url>
-  </snapshotRepository>
 </distributionManagement>
 </project>
