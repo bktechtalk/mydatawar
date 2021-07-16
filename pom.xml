@@ -68,9 +68,8 @@
   <distributionManagement>
   <repository>
     <id>mydata-data-repos</id>
-    <!-- CHANGE HERE by your team nexus server -->
     <url>http://192.168.1.211:8081/repository/mydata-data-repo/</url>
   </repository>
-</distributionManagement>
- -->
+  </distributionManagement>
+  -->
 </project>
